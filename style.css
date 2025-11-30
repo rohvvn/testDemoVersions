@@ -38,6 +38,16 @@ input[type="number"] {
     border-radius: 4px;
 }
 
+ xinput[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
 #submit-btn {
     background-color: #4CAF50;
     color: white;
